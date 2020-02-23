@@ -1,0 +1,28 @@
+ ----------------   THROW VS THROWS --------------
+
+
+
+throws keyword is used to document a method might throw that type of exception
+public static void playWithFire throws GetBurnedException{
+    // some code here
+}
+this is the only place you will see throws keywrod
+in (any) method declareation and is not used anywhere else.
+we will not use new keyword after throws
+Since throws are used to document it might throw an exception
+can i documemnt more than one type?
+// assuming these exceptions actually exists
+public void skyDiving() throws DiveTooDeepException, TooScareException,
+                                ParachuteNotWorkingException {
+                                }
+throw keyword
+Its used to actually programaitically throw the exception to the runtime system
+just like actually breaking the glass rather than telling it might break
+for example :  throw new AnyTypeOfException( optional message here) .
+    What can you throw ?????
+    ANYTHING IS-A Throwable ,
+    any object created from Throwable class or Sub class of Throwable class
+    even the Error (DO NOT TRY AT HOME!!!!!)
+
+    Throws is you might get exception !! used with ckeched Expections
+    Throw you getting an exception !!    used with unchecked Expections
