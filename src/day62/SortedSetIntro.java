@@ -1,8 +1,6 @@
 package day62;
 
-import java.util.Arrays;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.util.*;
 
 public class SortedSetIntro {
 
@@ -11,9 +9,10 @@ public class SortedSetIntro {
         //SortedSet Interface extend Set Interface
         // it is a data structure that store unique elements in sorted order...
         // the implemeting class is TreeSet.
-        SortedSet<Integer> mySet = new TreeSet<>(Arrays.asList(10,20,30,30,40,40,50,50,50));
-
+        SortedSet<Integer> mySet = new TreeSet<>(Arrays.asList(30,20,10,90,50,80,40,70,60,60));
         System.out.println(mySet);
+
+
 
         // look at output
         // it sorted natural low to high order
@@ -22,7 +21,7 @@ public class SortedSetIntro {
         System.out.println(mySet.first());
         System.out.println(mySet.last()); // these methods only belong to sortedSet
 
-        // tell me difference between hashSet and LinkHashSet and TreeSet
+        // tell me difference between hashSet and LinkHashSet and TreeSet ?
 
 
     }

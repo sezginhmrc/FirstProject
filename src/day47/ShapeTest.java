@@ -11,9 +11,12 @@ public class ShapeTest {
         System.out.println("before r1 = " + r1);
         r1.calculateArea();
         System.out.println("after r1 = " + r1);
+        r1.esma(2);
+        r1.esma(2,3);
 
         Shape s2 = new Rectangle(2,4);
         System.out.println(s2);
+
 
         Shape s3 = new Triangel(3,3);
         System.out.println(s3);

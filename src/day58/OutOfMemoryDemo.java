@@ -7,6 +7,11 @@ public class OutOfMemoryDemo {
 
     public static void main(String[] args) {
 
+        // This is Error not Exception
+        // Nothing to do with it
+        // Enironment problem
+
+
         List<Integer> nums = new ArrayList<>();
                             // heap memeory ArrayList
 
@@ -23,6 +28,8 @@ public class OutOfMemoryDemo {
         // it looping  until 2147483647
         // INTEGER MAX VALUE ?
         System.out.println("Integer.MAX_VALUE = " + Integer.MAX_VALUE);
+
+
 
     }
 }

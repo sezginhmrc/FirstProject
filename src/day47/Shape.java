@@ -10,10 +10,15 @@ public abstract class Shape {
 
     // add a constructor to set these name value
     public Shape(String name  ) {
-        this.name = name;
-
+        this.name = name ;
 
     }
+
+    public void esma (int x ){
+        System.out.println("1 param");
+    }
+
+
  // add a abstract void method called calculateArea
     public abstract void calculateArea();
 
@@ -22,6 +27,8 @@ public abstract class Shape {
 
 
 }
+
+
 
 //  add two concrete class of Shape :
 //  Triangle

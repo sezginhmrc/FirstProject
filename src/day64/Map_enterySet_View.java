@@ -23,6 +23,10 @@ public class Map_enterySet_View {
         // Because map is not iterable, w
         // e can get this entries to Set out of using entrySet view
         // Set is iterable
+        // Map is not iterable  i need something iterable in order  to iterate map
+
+
+
 
         for (Map.Entry<String,Double> each : entryView){
             System.out.println(each.getKey());

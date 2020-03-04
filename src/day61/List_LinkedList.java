@@ -8,6 +8,7 @@ public class List_LinkedList {
     public static void main(String[] args) {
 
         // ArrayList and LinkedList Differences ???
+
         // ArrayList is backed by array in the back
         // So if we have ArrayList with 4 elements sized(4)
        //  in the back We have array with size 4 holding all those elements
@@ -35,14 +36,31 @@ public class List_LinkedList {
         lst.add("Ozlem");
         lst.add("Zeynep");
         lst.add("Murat");
+        // those elements holdin each other hands
         System.out.println("lst = " +lst);
         lst.remove("Zeynep");
+        System.out.println(lst);
+
+
+
 
         // List is subclass of Collection
         // Internal different ArrayList and LinkedList ?
         // any kind of List has index..
         // adding and removing is good for LinkedList
 
+
+
+        // ArrayList internally use Array
+        // LinkedList internally use Node
+        // since ArrayList has less job to do
+        // ArrayList is good for getting items while LinkedList is good for removing and adding elements
+        // there is no faster or slower we are not even gonna feel difrrences in programs.
+        // Just for interview Differences...
+        // Arraylist is default choose for programmers
+        // LinkedList value is know next and previous element (Node)
+        // pointer is check the neightbord for checking item in LinkedList
+        // therefore it is good for adding and deleting items
 
 
 

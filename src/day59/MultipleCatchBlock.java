@@ -20,11 +20,16 @@ public class MultipleCatchBlock {
             System.out.println("your are out of bound !");
             System.out.println("You better to enter a number between 0 and  " +name1.length());
         } catch (InputMismatchException i){
-            System.out.println("input mismatch, enter a Number !!");
+            System.out.println("input mismatch, enter a Number !!"+i.getMessage());
         }  catch ( Exception e) {
             System.out.println("If i dont catch above 2 type i will come here!!");
         }
         System.out.println("The end ");
+
+        //WE CAN HAVE MORE THAN ONE CATCH BLOCK
+        // TO HANDLE DIFFRENTY TYPES OF EXCEPTION
+        // AND TAKE ACTION ACCORDING TO THE EXCEPTION TYPE AT RUNTIME
+
 
 
     }

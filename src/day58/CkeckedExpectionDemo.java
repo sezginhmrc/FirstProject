@@ -22,6 +22,7 @@ public class CkeckedExpectionDemo {
 
 
 
+
         System.out.println("Before try catch");
         try{
             System.out.println("HEllo from try block");

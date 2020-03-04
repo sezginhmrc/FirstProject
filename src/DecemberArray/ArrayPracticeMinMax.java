@@ -2,6 +2,7 @@ package DecemberArray;
 
 public class ArrayPracticeMinMax {
     public static void main(String[] args) {
+
         int[] nums = {1, 32, 45, 6, 7, 43};
 
         int max = nums[0];

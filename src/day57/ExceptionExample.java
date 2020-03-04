@@ -25,11 +25,24 @@ public class ExceptionExample
 
         // Program stop here not even check below code because i have runtime error
 
-       int result = 10/0 ;
+        // i used try catch to handle a runtime exceptions(unchecked exception)
+        try{
+            System.out.println("Before Try First Statement");
+            int result = 10/0 ;
+            System.out.println("Might throw an exception"); // this statement is after the exception code not will be run.
+            System.out.println(result);
+        } catch (Exception e){
+            System.out.println("EXCEPTION IS CAUGHT"+e);
+        }
+        finally {
+            System.out.println("THIS CODE RUN ANYWAY:)");
+        }
+
+
         // This is RUNTIME EXPECTION can't be  divided by 0
         // AritmeticExpection
         // compile fine but runtime error
-       System.out.println(result);
+
 
 
 

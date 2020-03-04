@@ -2,11 +2,12 @@ package day57;
 
 public class TryCatch {
     public static void main(String[] args) {
+
         System.out.println("Before TRY CATCH");
         try {
             System.out.println("In first Try Block");
             int result = 10/0;
-            System.out.println("After 10/0 line");
+            System.out.println("After 10/0 line"); //
         } catch (ArithmeticException e){
             System.out.println("Exception happened, and was caught and handled " );
         }
@@ -43,7 +44,7 @@ public class TryCatch {
             System.out.println("Exception");
         }
         System.out.println("Test Completed");
-
+        System.out.println("------");
 
         int[] numbers = {10,20,30,40};
         System.out.println(numbers[0]);

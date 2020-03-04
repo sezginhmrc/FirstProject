@@ -6,6 +6,7 @@ public class ExpectionPractice {
 
     public static void main(String[] args) {
 
+
         System.out.println("The start");
         String name = "Furkan";
 
@@ -23,7 +24,8 @@ public class ExpectionPractice {
             System.out.println(name.charAt(targetIndex));
             System.out.println("End of try");
 
-        } catch ( Exception e  ){ // We can put any Expection type here eventually it will catch the StringIndexOutOf  expection(fish)
+        } catch ( Exception e  ){ // We can put  Expection here it will catch StringIndecOutOfBOundException
+                                   // Exception Super type (polymorphisim)...
                                  // Java finds the error, create exception object and contain the situation
                                  // Exception e = new StringIndexOutOfBoundException () ;
                                 // or StringIndexOutOfBoundException s = new StringIndexOutOfBoundException() ;

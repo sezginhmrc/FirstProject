@@ -29,6 +29,7 @@ public class Casting {
         // we put large cup into small cup ?
         // This time it needs to be casted Explicitly
         // DownCasting !!!
+        System.out.println(b);
 
         // DOWCASTING RULES ;
         // it must be casted expilcitly byte b = (byte) x ;
@@ -91,7 +92,7 @@ public class Casting {
         // object has two different types
         // only reference type decide what accesible
 
-        d1.bark();
+       // d1.bark();//
         ((Dog)o).bark();
 
 
