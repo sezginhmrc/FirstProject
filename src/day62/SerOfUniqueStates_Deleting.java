@@ -15,9 +15,10 @@ public class SerOfUniqueStates_Deleting {
         // all collection type has adAll method
         states.addAll(Arrays.asList("GA","NY","FL","FL","NY","VA","VA"));
         //    states.remove("GA");
-      //   System.out.println("STATES BEFORE = "+states)
-
-
+         System.out.println("STATES BEFORE = "+states);
+         // no order while printing
+        // it stores unique elements
+        System.out.println("states.size() = " + states.size());
 
         // remove all the states with letter A
         Iterator<String>  stIter = states.iterator();
@@ -25,7 +26,7 @@ public class SerOfUniqueStates_Deleting {
         // iterator has 3 only methods hasNext(), next(), remove works together
         // to remove item while iterating over a collcetion
 
-       while (stIter.hasNext()){ // this is keep shifting
+      while (stIter.hasNext()){ // this is keep shifting
             String each = stIter.next();
             if(each.contains("A")){
                 System.out.println("Each before removing = "+each); // Ga, Va contains a...
@@ -39,11 +40,18 @@ public class SerOfUniqueStates_Deleting {
         // LAMBDA EXPRESSION COOL BUT INTERVIEWRS ASK ITEARTOR.
         // How do i remove item while im iterating over collection ? --> using iterator !!!
         states.removeIf(each -> each.contains("A"));
-        System.out.println(states); //
+        System.out.println(states);
+        // print set object not iterator !!
 
       //  System.out.println(stIter.hasNext());
-    //    System.out.println(stIter.next());
+        //   System.out.println(stIter.next());
         // if you try to get the next  item that you dont have using iterator
+
+        System.out.println(states);
+        states.forEach(each -> System.out.println(each));
+
+
+
 
     }
 }

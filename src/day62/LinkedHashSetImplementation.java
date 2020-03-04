@@ -27,18 +27,32 @@ public class LinkedHashSetImplementation {
         nums.add(13);
         nums.add(30);
         nums.add(30);
+        // LinkdeHashSet is keep insertion order
+        // removo duplicates
 
-        System.out.println(nums);
+        System.out.println("LinkedHashSet = " +nums);
 
         Set<Integer> nums1 = new HashSet<>();
-        nums.add(10);
-        nums.add(10);
-        nums.add(22);
-        nums.add(13);
-        nums.add(13);
-        nums.add(30);
-        nums.add(30);
-
-        System.out.println(nums1);
+        nums1.add(10);
+        nums1.add(10);
+        nums1.add(22);
+        nums1.add(13);
+        nums1.add(13);
+        nums1.add(30);
+        nums1.add(30);
+        // HashSet is ordered randomly
+        // remove duplicated
+        System.out.println("HASHSET = " +nums1);
     }
 }
+
+// SUMMARY
+// HASHSET IS MORE FORMAL THAN LINKEDHASHSET SINCE IT HAS LESS JOB TO DO
+// REMOVE DUPLICATES
+// RANDOMLY ORDER
+// NO INDEX
+
+// LINKEDHASHSET IS KEEPS INSERTION ORDER
+// REMOVE DUPLICATES
+// ORDERED
+// NO INDEX

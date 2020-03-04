@@ -3,6 +3,7 @@ package day62;
 import day61.Job;
 
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
@@ -32,8 +33,17 @@ public class JobTreeSet {
         System.out.println(favoriteJobs.first());
         System.out.println(favoriteJobs.last());
 
+        Iterator<Job> itr = favoriteJobs.iterator();
 
-        //favoriteJobs.forEach(each -> System.out.println(each));
+        while (itr.hasNext()){
+            System.out.println(itr.next());
+        }
+
+        favoriteJobs.forEach(each -> System.out.println(each));
+
+        // i used all the way i know for iterate over Collection
+        // Which way should i use in order to remove an element ?
+        // of course iterator..
 
     }
 }

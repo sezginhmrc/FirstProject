@@ -14,7 +14,7 @@ public class List_LinkedList {
        //  in the back We have array with size 4 holding all those elements
         // if you add one item to the list using add method
         // it will create an array with size 5 then copy all for above
-        // and add the new item at the end...
+        // and will add the new item at the end...
 
 
         // LinkedList is backed by something called Node
