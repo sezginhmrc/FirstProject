@@ -45,5 +45,14 @@ public class JobTreeSet {
         // Which way should i use in order to remove an element ?
         // of course iterator..
 
+
+        SortedSet<Integer> nums = new TreeSet<>(Arrays.asList(6,2,2,3,1,5,10,4,23,11,55,7));
+
+        for(Integer each : nums){
+            System.out.println(each);
+        }
+        // Sorted order (natural low to high)
+        // no duplicate
+        // no index..
     }
 }

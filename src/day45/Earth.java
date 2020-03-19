@@ -13,7 +13,7 @@ public class Earth extends Planet {
 
     int population ;
 
-    public Earth(){
+   public Earth(){
 
     }
     // we used the super keyword in order to call parent class consturctor

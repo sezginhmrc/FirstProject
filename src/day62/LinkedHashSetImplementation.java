@@ -56,3 +56,21 @@ public class LinkedHashSetImplementation {
 // REMOVE DUPLICATES
 // ORDERED
 // NO INDEX
+
+// SORTED SET IS INTERFACE IMPLEMENTATION IS TREESET
+// TREESET IS SORTED ORDER (NATURAL LOW TO HIGH)
+// REMOVE DUPLICATES
+// NO INDEX
+
+
+// tell me difference between hashSet and LinkHashSet and TreeSet ?
+
+/* all set implementations store unique elements
+ * HashSet is ordered randomly (default set)
+ * LinkedHashSet is keep insertion order
+ * TreeSet is sorted order (natural low to high)
+ * all of them are removing duplicates
+ * They dont have index
+ * In order to iterate them We use iterator for each loop an foreach (lambda)
+ * in order to remove an item while iterating them we use iterator
+ * */

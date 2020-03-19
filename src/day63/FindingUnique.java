@@ -15,7 +15,7 @@ public class FindingUnique {
 
         // One way to do it
         // first find a data structure that automatically remove duplicate
-        // Create a HashSet object with type Chracter
+        // Create a HashSet object wiouytre`    QAWSERTYU890-=\ th type Chracter
         // iterate over each chracter in above string
         // then add it to the object(HashSet) so it can remoive the duplicate for us..
 
