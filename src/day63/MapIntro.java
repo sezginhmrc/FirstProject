@@ -5,15 +5,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MapIntro {
+
     // map is key value pair
-    // We store key and value together in interview
+    // We store key and value together
 
     public static void main(String[] args) {
 
         // Collection of key value pair.
         // it is like dictionary
-        // it has word and it has meaning
-        // key and value
         // We store key value pair
         // Together as one element
         // everything we have done so far single

@@ -3,14 +3,16 @@ package day60;
 import java.lang.reflect.Array;
 import java.util.*;
 
+
 // a class extends another class
 // an interface extends another interface
 // a class implement one or more interface
 
+
 public class CollectionIntro {
 
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
 
 
         // List is interface in Collection Framework
@@ -46,16 +48,16 @@ public class CollectionIntro {
 
         names.forEach( each -> System.out.println("Each = " +each));
         //  This is how we can use forEach method to print out everthing in one shot
-        // ->  symbol this is lambda expression
+        //  Symbol this is lambda expression
     }
 }
 
 // The word Collection contains ;
 // Collection Framework -> referring entire things, entire topic
 // Collection InterFace -> one interface under the entire Collection FrameWrok
-// Collections class  -->> (it has s at the end, just like Array and Arrays )
+// Collections class -->> (it has s at the end, just like Array and Arrays )
 //                   -->>  is a utility class with many static methods
-//                 for example : Collections.sort(your collection object1)
+//                   for example : Collections.sort(your collection object1)
 
 
 // COLLECTION INTERFACE IS SUPER INTERFACE OF ALL LIST SET AND MAP

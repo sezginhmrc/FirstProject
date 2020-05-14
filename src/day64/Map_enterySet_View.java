@@ -9,6 +9,7 @@ public class Map_enterySet_View {
     public static void main(String[] args) {
 
         Map<String, Double> groceryPriceMap = new HashMap<>();
+        // we can also use LinkedHashMap to keep insertaion order
         groceryPriceMap.put("Tomato", 1.99);
         groceryPriceMap.put("Patato", 2.99);
         groceryPriceMap.put("Grape", 3.99);

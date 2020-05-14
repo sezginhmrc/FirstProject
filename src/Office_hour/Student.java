@@ -6,7 +6,8 @@ import java.util.List;
 public class Student {
     //create a class called Student:
     //			instance variables: String studentName
-    //			initialize the ins variable within a constructor
+    //			initialize the ins variable within a
+    //			constructor
     //	create a class called School:
     //			instance variables: String schoolName
     //								List<Student> AllStudentsList;

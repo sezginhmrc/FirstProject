@@ -17,17 +17,17 @@ public class LoopControlStatement {
 
         // task 1
 
-        for (int i = 0; i < msg.length(); i++) {
-        //    System.out.println(msg.substring(i,i+1)); //  System.out.print(msg.charAt(i)); this is another way
-                                                              // char currentChar = msg.charAt(i);
-                if(i%2==1) {
-                    continue;
-                    
-                }
-           //       System.out.println(msg.substring(i,i+1)) ;
+        int [] arr1 = {1,2,3,4,5};
+        for (int e = 0; e < arr1.length; e++) {
+                if(e%2==1) {
+                    continue; }
+            System.out.println(arr1[e]);
+            //    System.out.println(msg.substring(e,e+1)); //  System.out.print(msg.charAt(e)); this is another way
+            // char currentChar = msg.charAt(e);
+               // System.out.println(msg.substring(e,e+1)) ;
 
                 }
-            // task 2 ;
+    /*        // task 2 ;
                 for (int i = 0; i <msg.length() ; i++) {
             String currentChar = msg.substring(i,i+1);
             if (currentChar.equalsIgnoreCase("j")){
@@ -44,7 +44,6 @@ public class LoopControlStatement {
             if(currentChar.equalsIgnoreCase("j")){
                 break ;
             }
-            System.out.println(currentChar);
+            System.out.println(currentChar);*/
         }
         }
-    }
